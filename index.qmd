@@ -1,5 +1,5 @@
 ---
-title: "Health Status of Individuals in the US"
+title: "Health of Individuals in the US"
 author: "Anna Shao"
 format: html
 execute:
@@ -10,7 +10,6 @@ execute:
 #| label: setup
 #| message: false
 
-library(tidyverse)
 library(knitr)
 ```
 

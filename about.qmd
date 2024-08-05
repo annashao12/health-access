@@ -4,7 +4,7 @@ title: "About"
 
 ## About Me
 
-My name is Anna Shao. I will be a first-year college student at Harvard College for the 2024-2025 school year. My GitHub is [here](https://github.com/annashao12). Feel free to contact me at shaoanna2013\@gmail.com or ashao\@college.harvard.edu.
+My name is Anna Shao. I will be a first-year college student at Harvard College for the 2024-2025 school year. My GitHub is [here](https://github.com/annashao12). Feel free to contact me at shaoanna2013 [at] gmail [dot] com or ashao [at] college [dot] harvard [dot] edu.
 
 ## About the Project
 

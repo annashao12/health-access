@@ -11,9 +11,9 @@ execute:
 library(knitr)
 ```
 
-## Formula for the Regression Model
+## Formula for the Model
 
-I used a Bernoulli model in which there are two outcomes: **Yes** and **No**, for whether the individual has one or more health conditions.
+I used a Bernoulli model with two outcomes: [Yes]{.underline} and [No]{.underline}, for whether the individual has one or more health conditions.
 
 $$health\_condition_{i} \sim Bernoulli(\rho = 0.56)$$
 
@@ -31,16 +31,29 @@ health\_condition_{i} =
 \end{aligned}
 \end{equation}
 ```
-
 ## Table of Coefficients
 
 The intercept ($\beta_{0}$) is for calculating $\rho$ using the average aged adult female who has never married, does not have limited access to healthcare, and has zero children.
 
-```{r, fig.align = "center"}
+```{r fig.align = "center"}
 #| label: table
 #| warning: false
 
 knitr::include_graphics("graphs/regtable.png")
-# tbl_regression(fit_condition, intercept = TRUE)
 ```
 
+Some results were expected. As age increases, the probability of having a health condition is higher. Similarly, individuals who have had difficulty accessing healthcare are more likely to also be the ones who have a chronic health condition. This relationship could potentially be mutually reinforcing.
+
+Furthermore, divorced individuals were more likely to have a health condition. It could be that their health condition resulted in the divorce or the divorce caused onset of a health condition or an entirely different confounding variable.
+
+Interestingly, males, married individuals, and individuals with one to three children were less likely to have a health condition.
+
+## Posterior Predictive Check
+
+Each bar represented one of the two potential outcomes for health_condition. The ten replicates had little variation between them and precisely captured the actual data.
+
+```{r fig.align = "center"}
+#| label: ppcheck
+
+knitr::include_graphics("graphs/ppcheck.png")
+```

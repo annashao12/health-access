@@ -7,15 +7,20 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: visualization.qmd
+        text: Overview
       - href: model.qmd
         text: Model
+      - href: disparities.qmd
+        text: Disparities
       - href: sources.qmd
         text: Sources
-      - about.qmd
+      - href: about.qmd
+        text: About
 
 format:
   html:
-    theme: cosmo
+    theme: lux
     css: styles.css
     toc: true
 

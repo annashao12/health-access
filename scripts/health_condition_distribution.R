@@ -57,9 +57,9 @@ predicted <- fit_condition |>
   add_epred_draws(newdata = newobs)
 
 ggplot(predicted, aes(x = .epred, fill = limited_access)) +
-  geom_density() + 
-  scale_fill_manual(values = c("No" = "#A1BE95", "Yes" = "#F98866")) +
-  labs(title = "Posterior Distribution of Health Condition",
+  geom_density(alpha = 0.85) + 
+  scale_fill_manual(values = c("No" = "#CEE6F2", "Yes" = "#E3867D")) +
+  labs(title = "Access and Health Condition",
        subtitle = "Distribution is approximately divided based on access to healthcare",
        x = "Probability of having health condition(s)",
        y = NULL,

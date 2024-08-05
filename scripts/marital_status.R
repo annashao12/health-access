@@ -54,7 +54,8 @@ num_of_children <- c(0:6)
 newobs <- expand_grid(age, marital_status, gender, limited_access, num_of_children)
 
 predicted <- fit_condition |> 
-  add_epred_draws(newdata = newobs)
+  add_epred_draws(newdata = newobs) |> 
+  mutate(marital_status = recode(marital_status, "NeverMarried" = "Never Married"))
 
 ggplot(predicted, aes(x = fct_reorder(marital_status, .epred, mean),
                       y = .epred)) +
@@ -62,7 +63,7 @@ ggplot(predicted, aes(x = fct_reorder(marital_status, .epred, mean),
   labs(title = "Marital Status and Health Condition", 
        subtitle = "Married individuals tend to be healthier",
        x = "Marital Status", 
-       y = "Probability of health condition") +
+       y = "Probability of health condition(s)") +
   theme_bw() +
   theme(
     plot.title = element_text(size = 16, face = "bold"),
@@ -85,12 +86,14 @@ num_of_children <- c(0:6)
 newobs <- expand_grid(age, marital_status, gender, limited_access, num_of_children)
 
 predicted <- fit_condition |> 
-  add_epred_draws(newdata = newobs)
+  add_epred_draws(newdata = newobs) |> 
+  mutate(marital_status = recode(marital_status, "NeverMarried" = "Never Married"))
 
 ggplot(predicted, aes(x = .epred, y = marital_status)) +
   stat_slab(aes(fill = gender), 
             position = 'identity',
-            alpha = 0.8) +
+            alpha = 0.8,
+            scale = 0.95) +
   scale_fill_manual(values = c("Female" = "lightblue", "Male" = "salmon"))+
   labs(title = "Sex and Health Condition", 
        subtitle = "Males tend to be healthier regardless of marital status",

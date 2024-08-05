@@ -45,6 +45,8 @@ fit_condition <- brm(
   refresh = 0,
   seed = 12)
 
+pp_check(fit_condition, type = "bars")
+
 tbl_regression(fit_condition, intercept = TRUE) |> 
   as_gt() |>  # convert to gt table
   gt::gtsave( # save table as image

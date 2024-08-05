@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "Health in the US"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: model.qmd
+        text: Model
+      - href: sources.qmd
+        text: Sources
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

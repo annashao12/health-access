@@ -1,0 +1,71 @@
+File Manifest for ICPSR 38759
+
+Karpman, Michael. Well-Being and Basic Needs Survey, United States, 2021.
+ICPSR38759-v1. Ann Arbor, MI: Inter-university Consortium for Political and
+Social Research [distributor], 2023-12-12.
+http://doi.org/10.3886/ICPSR38759.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    38759-descriptioncitation.pdf       -       -         -       2023-12-14  -
+
+    38759-related_literature.txt        -       -         -       daily       -
+
+    38759-manifest.txt                  -       -         -       daily       -
+
+    38759-Questionnaire.pdf             -       -         -       2023-12-12  fa3eb416a084cb26d89960c27c839a8a
+
+    38759-User_guide.pdf                -       -         -       2023-12-12  9a89da81a05024f54cef8d7842b5ac69
+
+
+DS0001 Public-Use Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    38759-0001-Codebook-ICPSR.pdf       -       -         -       2023-12-14  895b7dba53ec65a1bf68ca4d7879943d
+
+    38759-0001-Data.dta                 -       8,142     347     2023-12-12  3b6a3ec7cc22b922c895e1c4a89173ab
+
+    38759-0001-Data.rda                 -       8,142     347     2023-12-12  11b63be3442cae62cc3972214212a02b
+
+    38759-0001-Data.sav                 -       8,142     347     2023-12-12  80435ec0259e862a28582a4fdeb22d91
+
+    38759-0001-Data.stc                 -       8,142     347     2023-12-12  a151b4671b367c9cb09a4cb5c0ceb353
+
+    38759-0001-Data.tsv                 -       8,142     347     2023-12-12  ed395a196d3b414b2180c98127ba9433
+
+    38759-0001-Data.txt                 568     8,142     347     2023-12-12  982b78d9a8b8b2d647eb3d43cc48691f
+
+    38759-0001-Setup.dct                -       -         -       2023-12-12  bff02e6df3519f8bcbe0bf16834b2262
+
+    38759-0001-Setup.do                 -       -         -       2023-12-12  dd28a69e731ed917d4f6b810ca0d8493
+
+    38759-0001-Setup.sas                -       -         -       2023-12-12  521e980872f0a01c99ba742c73dfa427
+
+    38759-0001-Setup.sps                -       -         -       2023-12-12  6747cb2936f5bfcdcd1d3d7a65bf86fa
+
+    38759-0001-Supplemental_syntax.do   -       -         -       2023-12-12  bff4f393f22e424ab0ae9f5c52af1c26
+
+    38759-0001-Supplemental_syntax.sas  -       -         -       2023-12-12  58cb211efced7cab8832d154d0040493
+
+
+DS0002 Noncitizen-Oversample Restricted-Use Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    38759-0002-Codebook-ICPSR.pdf       -       -         -       2023-12-14  1c30c2389b879829d96b219946531781
+
+
+DS0003 Immigrant Module Restricted-Use Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    38759-0003-Codebook-ICPSR.pdf       -       -         -       2023-12-14  982291e159b908e85b91654e1ff960b8
+

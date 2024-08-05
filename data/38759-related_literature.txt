@@ -1,0 +1,81 @@
+Bibliography
+Well-Being and Basic Needs Survey, United States, 2021
+
+This bibliography includes published and unpublished works that are related 
+to ICPSR study 38759. It includes works that are based on primary
+or secondary analysis of the data, or which describe or critique those
+data or the collection methodology. 
+
+If you publish a work or know of other works that are based on these data,
+please send the complete citation and name of the ICPSR study used to:
+icpsr-biblio-notify@umich.edu 
+
+
+1. Bernstein, H.; Gonzalez, D.; Echave, P.; Guelespe, D., "Immigrant
+Families Faced Multiple Barriers to Safety Net Programs in 2021." Brief.
+Washington, DC: Urban Institute, Nov 2022.
+Abstract: https://www.urban.org/research/publication/immigrant-families-faced-multiple-barriers-safety-net-programs-2021
+Full text PDF: https://www.urban.org/sites/default/files/2022-11/Immigrant%20Families%20Faced%20Multiple%20Barriers%20to%20Safety%20Net%20Programs%20in%202021.pdf
+
+2. Boyens, C.; Karpman, M.; Smalligan, J., "Access to Paid Leave Is Lowest
+among Workers with the Greatest Needs." Brief. Washington, DC: Urban
+Institute, Jul 2022.
+Abstract: https://www.urban.org/research/publication/access-paid-leave-lowest-among-workers-greatest-needs
+Full text PDF: https://www.urban.org/sites/default/files/2022-07/Access%20to%20Paid%20Leave%20Is%20Lowest%20among%20Workers%20with%20the%20Greatest%20Needs.pdf
+
+3. Gonzalez, D.; Karpman, M.; Alvarez Caraveo, C., "Immigrant Families in
+California Faced Barriers Accessing Safety Net Programs in 2021, but
+Community Organizations Helped Many Enroll." Brief. Washington, DC: Urban
+Institute, Aug 2022.
+Abstract: https://www.urban.org/research/publication/immigrant-families-california-faced-barriers-accessing-safety-net-programs
+Full text PDF: https://www.urban.org/sites/default/files/2022-08/Immigrant%20Families%20in%20California%20Faced%20Barriers%20Accessing%20Safety%20Net%20Programs%20in%202021%2C%20but%20Community%20Organizations%20Helped%20Many%20Enroll.pdf
+
+4. Gonzalez, D.; Karpman, M.; Alvarez Caraveo, C., "Immigrant Families in
+California Faced Barriers Accessing Safety Net Programs in 2021, but
+Community Organizations Helped Many Enroll." Executive Summary. Washington,
+DC: Urban Institute, Aug 2022.
+Abstract: https://www.urban.org/research/publication/immigrant-families-california-faced-barriers-accessing-safety-net-programs
+Full text PDF: https://www.urban.org/sites/default/files/2022-08/Executive%20Summary-English-Immigrant%20Families%20in%20CA%20Faced%20Barriers%20Accessing%20Safety%20Net%20Programs.pdf
+
+5. Guelespe, D.; Echave, P.; Gonzalez, D., "Mixed-Status Immigrant Families
+Disproportionately Experienced Material Hardships in 2021." Brief.
+Washington, DC: Urban Institute, Feb 2023.
+Abstract: https://www.urban.org/research/publication/mixed-status-immigrant-families-disproportionately-experienced-material#:~:text=Adults%20in%20mixed%2Dstatus%20families%20were%20more%20likely%20than%20adults,for%20adults%20in%20other%20families.
+Full text PDF: https://www.urban.org/sites/default/files/2023-02/Mixed-Status%20Immigrant%20Families%20Disproportionately%20Experienced%20Material%20Hardships%20in%202021.pdf
+
+6. Gupta, P.; Salas, J.; Waxman, E., "Two Years into the Pandemic,
+Charitable Food Remains a Key Resource for One in Six Adults: Findings from
+the December 2021 Well-Being and Basic Needs Survey." Brief. Washington,
+DC: Urban Institute, May 2022.
+Full text PDF: https://www.urban.org/sites/default/files/2022-05/Two%20Years%20into%20the%20Pandemic%2C%20Charitable%20Food%20Remains%20a%20Key%20Resource%20for%20One%20in%20Six%20Adults.pdf
+
+7. Gutierrez, Emily, "The Majority of Adults Support Permanent, Free School
+Meals for All Students." Fact Sheet. Washington, DC: Urban Institute, Jun
+2022.
+Abstract: https://www.urban.org/research/publication/majority-adults-support-permanent-free-school-meals-all-students
+Full text PDF: https://www.urban.org/sites/default/files/2022-06/The%20Majority%20of%20Adults%20Support%20Permanent%2C%20Free%20School%20Meals%20for%20All%20Students%20.pdf
+
+8. Karpman, M.; Maag, E.; Zuckerman, S.; Wissoker, D., "Child Tax Credit
+Recipients Experienced a Larger Decline in Food Insecurity and a Similar
+Change in Employment as Nonrecipients between 2020 and 2021." Brief.
+Washington, DC: Urban Institute, May 2022.
+Abstract: https://www.urban.org/research/publication/child-tax-credit-recipients-experienced-larger-decline-food-insecurity-and
+Full text PDF: https://www.urban.org/sites/default/files/2022-05/CTC%20Recipients%20Experienced%20Larger%20Decline%20in%20Food%20Insecurity%20and%20Similar%20Change%20in%20Employment%20as%20Nonrecipients%20v2.pdf
+
+9. Karpman, Michael; Maag, Elaine, "Lack of Awareness and Confusion over
+Eligibility Prevented Some Families from Getting Child Tax Credit
+Payments." Brief. Washington, DC: Urban Institute, Aug 2023.
+Abstract: https://www.urban.org/research/publication/lack-awareness-and-confusion-over-eligibility-prevented-some-families-getting#:~:text=Data%20from%20the%20Urban%20Institute's,or%20how%20to%20claim%20it.
+Full text PDF: https://www.urban.org/sites/default/files/2022-08/Lack%20of%20Awareness%20and%20Confusion%20over%20Eligibility%20Prevented%20Some%20Families%20from%20Getting%20CTC%20Payments.pdf
+
+10. Maag, Elaine; Karpman, Michael, "Many Adults with Lower Income Prefer
+Monthly Child Tax Credit Payments." Fact Sheet. Washington, DC: Urban
+Institute, Jul 2022.
+Abstract: https://www.urban.org/research/publication/many-adults-lower-income-prefer-monthly-child-tax-credit-payments
+Full text PDF: https://www.urban.org/sites/default/files/2022-07/Many%20Adults%20with%20Lower%20Income%20Prefer%20Monthly%20Child%20Tax%20Credit%20Payments.pdf
+
+11. McDaniel, M.; Karpman, M.; Kenney, G.M.; Hahn, H.; Pratt, E., "Customer
+Service Experiences and Enrollment Difficulties Vary Widely across Safety
+Net Programs." Brief. Washington, DC: Urban Institute, 2023.
+Abstract: https://www.urban.org/research/publication/customer-service-experiences-and-enrollment-difficulties
+Full text PDF: https://www.urban.org/sites/default/files/2023-01/Customer%20Service%20Experiences%20and%20Enrollment%20Difficulties%20Vary%20Widely%20across%20Safety%20Net%20Programs.pdf

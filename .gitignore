@@ -15,3 +15,8 @@ _publish.yml
 *_site
 *_cache/
 *_files/
+
+*eda1.R
+*eda2.R
+*eda3.R
+*old.png

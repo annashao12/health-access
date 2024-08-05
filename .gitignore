@@ -5,7 +5,7 @@
 .DS_Store
 
 *Rproj
-reference.qmd
+reference.R
 
 /.quarto/
 .DS_Store
@@ -13,3 +13,5 @@ reference.qmd
 _publish.yml
 
 *_site
+*_cache/
+*_files/

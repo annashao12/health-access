@@ -3,3 +3,30 @@ title: "Sources"
 format: html
 ---
 
+## Data Set
+
+This project used data from the [2021 Well-Being and Basic Needs Survey](https://www.icpsr.umich.edu/web/HMCA/studies/38759/summary).
+
+Citation for the Data:
+
+Karpman, Michael. Well-Being and Basic Needs Survey, United States, 2021. Inter-university Consortium for Political and Social Research \[distributor\], 2023-12-12. https://doi.org/10.3886/ICPSR38759.v1
+
+## Tidying the Data
+
+The survey asked individuals a variety of questions related to their lives. This analysis involved answers to the following questions:
+
+-   Do you currently have a health condition that has lasted for a year or more or is expected to last for a year or more?
+    -   Options: Yes, one condition; Yes, more than one condition; No
+-   In general, would you say your health is...
+    -   Options: Excellent; Very good; Good; Fair; Poor
+-   Age
+-   Gender
+    -   Options: Male; Female
+-   The following questions ask about you and your household. Are you now...
+    -   Options: Married; Widowed; Divorced; Separated; Never married
+-   How many people under the age of 19 \[other than yourself\] are currently living in your household? Only include people under the age of 19 who are living with you at least 50% of the time.
+    -   Options: 0; 1; 2; 3; 4; 5; 6 or more
+-   Thinking about your health care experiences over the past 12 months, that is, since \[CURRENT MONTH\] \[CURRENT YEAR-1\], was there any time when you needed medical care but did not get it because you couldn't afford it?
+    -   Options: Yes; No
+
+Before creating visualizations and a model, I removed individuals with missing information out of the questions I chose. I also combined the options in the first question listed above to simply "Yes" and "No," indicating whether or not the individual had a health condition. Some plots involved further filtering of the data, which are mentioned in the caption or descriptive text.

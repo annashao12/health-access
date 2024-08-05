@@ -1,5 +1,5 @@
 ---
-title: "Health in the US"
+title: "Health Status of Individuals in the US"
 author: "Anna Shao"
 format: html
 execute:
@@ -17,8 +17,7 @@ library(knitr)
 ```{r fig.align = "center"}
 #| label: plot
 
-knitr::include_graphics("graphs/health_condition_distribution.png")
+knitr::include_graphics("graphs/num_of_children.png")
 ```
 
-There is a Quarto website. The home page, which is created from index.qmd, should grab the readers attention. It includes one plot, the most interesting/important plot which you have. It also includes your paragraph summary of the project. It is clean and professional looking. It does not show code or stupid R messages.
-
+Within the diversity of individuals residing in the US, there remain discrepancies in people's health and the healthcare they are able to receive. The data used in this project was pulled from the 2021 Well-Being and Basic Needs Survey conducted by the Urban Institute of adults in the US. I analyzed individuals' health based on whether they were living with any health conditions that lasted longer than one year. I used a Bernoulli regression model to understand individuals' health condition, a binary Yes/No variable, based on factors such as their age and marital status. Compared to individuals without children, individuals with one to three children showed a significant decrease in the likelihood of having a health condition.

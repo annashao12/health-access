@@ -2,7 +2,23 @@
 title: "Health in the US"
 author: "Anna Shao"
 format: html
-exectue:
+execute:
   echo: false
 ---
+
+```{r}
+#| label: setup
+#| message: false
+
+library(tidyverse)
+library(knitr)
+```
+
+```{r fig.align = "center"}
+#| label: plot
+
+knitr::include_graphics("graphs/health_condition_distribution.png")
+```
+
+There is a Quarto website. The home page, which is created from index.qmd, should grab the readers attention. It includes one plot, the most interesting/important plot which you have. It also includes your paragraph summary of the project. It is clean and professional looking. It does not show code or stupid R messages.
 

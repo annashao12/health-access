@@ -1,0 +1,15 @@
+---
+title: "About"
+---
+
+## About Me
+
+My name is Anna Shao. I will be a first-year college student at Harvard College for the 2024-2025 school year. My GitHub is [here](https://github.com/annashao12). Feel free to contact me at shaoanna2013\@gmail.com or ashao\@college.harvard.edu.
+
+## About the Project
+
+If you are interested in seeing the process behind this project, the GitHub repository for this project is [here](https://github.com/annashao12/health-access).
+
+## Credits
+
+This project was created as part of [Kane's Data Science Bootcamp](https://bootcamp.davidkane.info/).

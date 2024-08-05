@@ -6,3 +6,10 @@
 
 *Rproj
 reference.qmd
+
+/.quarto/
+.DS_Store
+
+_publish.yml
+
+*_site

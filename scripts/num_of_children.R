@@ -57,9 +57,12 @@ predicted <- fit_condition |>
   add_epred_draws(newdata = newobs) |> 
   mutate(num_of_children = ifelse(num_of_children > 0, "Yes", "No"),
          gender_children = paste0(gender, " | ", num_of_children),
+         marital_status = factor(marital_status,
+                                 levels = c("NeverMarried","Married","Separated"),
+                                 ordered = TRUE),
          marital_status = recode(marital_status, "NeverMarried" = "Never Married"))
 
-ggplot(predicted, aes(x = .epred, y = marital_status)) +
+ggplot(predicted, aes(x = .epred, y = fct_rev(marital_status))) +
   stat_slab(aes(fill = as.factor(gender_children)), 
             position = 'identity',
             alpha = 0.8,
@@ -72,7 +75,7 @@ ggplot(predicted, aes(x = .epred, y = marital_status)) +
        subtitle = "Individuals with one or more children tend to be healthier, especially for males",
        x = "Probability of having health condition(s)", 
        y = "Marital Status",
-       caption = "Only individuals who had access to healthcare (NOT limited access) were displayed",
+       caption = "People with limited access to healthcare or are\ndivorced or widowed were not displayed",
        fill = "Sex | Have Child(ren)?") +
   theme_bw() +
   theme(
@@ -83,8 +86,5 @@ ggplot(predicted, aes(x = .epred, y = marital_status)) +
     axis.text.y = element_text(size = 12),
     legend.position = "right"
   )
-
-# Individuals who experienced limited access to healthcare demonstrated the same trend 
-# but all distributions were shifted to be more likely to have a health condition(s).
 
 #whether employed or not?

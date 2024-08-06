@@ -22,11 +22,11 @@ $$health\_condition_{i} \sim Bernoulli(\rho = 0.56)$$
 \begin{aligned}
 health\_condition_{i} = 
       & \beta_{0} \\
-    + & \beta_{1} age_i \\
-    + & \beta_{2} sex_i \\
-    + & \beta_{3} marital\_status_i \\
-    + & \beta_{4} limited\_access_{i} \\
-    + & \beta_{5} num\_of\_children_{i} \\
+    + & \beta_{1} \cdot age_i \\
+    + & \beta_{2} \cdot sex_i \\
+    + & \beta_{3} \cdot marital\_status_i \\
+    + & \beta_{4} \cdot limited\_access_{i} \\
+    + & \beta_{5} \cdot num\_of\_children_{i} \\
     + & \epsilon_{i} \\
 \end{aligned}
 \end{equation}

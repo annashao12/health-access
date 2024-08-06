@@ -87,9 +87,12 @@ newobs <- expand_grid(age, marital_status, gender, limited_access, num_of_childr
 
 predicted <- fit_condition |> 
   add_epred_draws(newdata = newobs) |> 
-  mutate(marital_status = recode(marital_status, "NeverMarried" = "Never Married"))
+  mutate(marital_status = factor(marital_status,
+                                 levels = c("NeverMarried","Married","Separated"),
+                                 ordered = TRUE),
+         marital_status = recode(marital_status, "NeverMarried" = "Never Married"))
 
-ggplot(predicted, aes(x = .epred, y = marital_status)) +
+ggplot(predicted, aes(x = .epred, y = fct_rev(marital_status))) +
   stat_slab(aes(fill = gender), 
             position = 'identity',
             alpha = 0.8,
@@ -99,7 +102,7 @@ ggplot(predicted, aes(x = .epred, y = marital_status)) +
        subtitle = "Males tend to be healthier regardless of marital status",
        x = "Probability of having health condition(s)", 
        y = "Marital Status",
-       caption = "Only displaying individuals who indicated they had access to healthcare (NOT limited access)",
+       caption = "People with limited access to healthcare or are\ndivorced or widowed were not displayed",
        fill = "Sex") +
   theme_bw() +
   theme(

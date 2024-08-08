@@ -19,7 +19,7 @@ library(knitr)
 knitr::include_graphics("graphs/health_condition_distribution.png")
 ```
 
-People who had difficulty accessing healthcare due to cost in the past year tended to also have one or more health conditions. Due to the few peaks still present within the group that did not have difficulty accessing healthcare, I investigated another cross-section among the individuals; there may be additional relationships to individuals' health condition beyond the healthcare costs.
+People who had difficulty accessing healthcare due to cost in the past year tended to also have one or more health conditions. Due to the few peaks still present within the group that did not have difficulty accessing healthcare, I investigated another cross-section among the individuals; there may be additional relationships to individuals’ health conditions beyond the healthcare costs.
 
 ## Personal Relationship
 
@@ -31,7 +31,7 @@ knitr::include_graphics("graphs/marital_status.png")
 
 The median likelihood of having one or more health conditions for married people is much lower than the medians of other marital statuses. In fact, the median for married people was lower than 75%+ of people of other marital statuses. However, there were many low outliers from the other marital statuses, indicating a left skew in their probability distributions.
 
-People who were divorced, widowed, and separated demonstrated similar probabilities of having one or more health conditions so in the following graph, I excluded widowed and separated people. Further, I included only people who could afford healthcare. The distributions for people who could not afford healthcare were shifted toward the right (higher probability of having one or more health conditions) for all marital statuses.
+People who were divorced, widowed, or separated demonstrated similar probabilities of having one or more health conditions, so from the three, I included only separated people in the following graph. Further, I included only people who could afford healthcare. The distributions for people who could not afford healthcare were shifted toward the right (higher probability of having one or more health conditions) for all marital statuses.
 
 ```{r fig.align = "center"}
 #| label: sex
@@ -39,8 +39,6 @@ People who were divorced, widowed, and separated demonstrated similar probabilit
 knitr::include_graphics("graphs/marital_status_sex.png")
 ```
 
-There still seems to be two peaks within the distributions for 'Never Married' and 'Married' people after splitting by sex. This means there are additional unaccounted for factors.
+There still seems to be two peaks within the distributions for 'Never Married' and 'Married' people after splitting by sex. This means there are additional unaccounted for factors. Interestingly, after considering marital status, sex, and whether or not the individual has children (see graph on the [Home](https://annashao12.quarto.pub/health-in-the-us/) page), the two peaks are each accounted for.
 
-Interestingly, after considering marital status, sex, and [whether or not the individual has children]{.underline} (see graph on the [Home](https://annashao12.quarto.pub/health-in-the-us/) page), the two peaks are each accounted for.
-
-However, the higher peak in the [graph](https://annashao12.quarto.pub/health-in-the-us/) (with whether or not an individual has children) is towards the right with a greater probability of having health conditions. Meanwhile, in the graph immediately above, the higher peak is on the left side. Therefore, the presence of children may potentially be an important factor since this variable changed the overall shape of the probability distributions.
+However, the higher peak in the [graph](https://annashao12.quarto.pub/health-in-the-us/) (with whether or not an individual has children) is towards the right with a greater probability of having health conditions. Meanwhile, in the graph immediately above, the higher peak is on the left side. Therefore, the presence of children may potentially be an important factor since this variable changed the overall shape and spread of the probability distributions.

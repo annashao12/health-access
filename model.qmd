@@ -35,6 +35,11 @@ health\_condition_{i} =
 
 The intercept ($\beta_{0}$) is for calculating $\rho$ using the average aged adult female who has never married, does not have limited access to healthcare, and has zero children.
 
+-   The more positive beta is, the greater the likelihood of having a health condition
+-   Likewise, more negative beta values mean a lower likelihood of having a health condition
+
+To calculate the specific probability for a given characteristic, use the logit regression $\rho = \frac{e ^ \beta}{1+e^\beta}$ where $\beta$ is the characteristic's corresponding $\beta$ value added to the (Intercept).
+
 ```{r fig.align = "center"}
 #| label: table
 #| warning: false
@@ -44,7 +49,7 @@ knitr::include_graphics("graphs/regtable.png")
 
 Some results were expected. As age increases, the probability of having a health condition is higher. Similarly, individuals who have had difficulty accessing healthcare are more likely to also be the ones who have a chronic health condition. This relationship could potentially be mutually reinforcing.
 
-Furthermore, divorced individuals were more likely to have a health condition. It could be that their health condition resulted in the divorce or the divorce caused onset of a health condition or an entirely different confounding variable.
+Furthermore, divorced individuals were more likely to have a health condition. It could be that their health condition resulted in the divorce, or the divorce caused the onset of a health condition, or there was an entirely different confounding variable.
 
 Interestingly, males, married individuals, and individuals with one to three children were less likely to have a health condition.
 

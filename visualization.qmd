@@ -18,7 +18,7 @@ library(knitr)
 
 knitr::include_graphics("graphs/age_gender.png")
 ```
-The number of middle-aged adults (~30 to 50) surveyed were similar to each other. However, the survey captured fewer adults at the ends of the age range (18 to 64). There were approximately equal number of female and males surveyed. Overall, this suggests that the data set is somewhat representative of the US population as a whole. 
+The number of middle-aged adults (~30 to 50) surveyed were similar to each other. However, the survey captured fewer adults at the ends of the age range (18 to 64). There were approximately an equal number of females and males surveyed. Overall, this suggests that the data set is somewhat representative of the US population as a whole but does not fully capture the US.
 
 ## Response Verification
 
@@ -28,4 +28,4 @@ The number of middle-aged adults (~30 to 50) surveyed were similar to each other
 knitr::include_graphics("graphs/self_health.png")
 ```
 
-As expected, people with health conditions rate their own health as worse. Although the five categories for self-assessed health are based on each person's own interpretation, the general trend is apparent and aligns with information more based on fact: whether or not a person has a health condition, which other people and independent organizations can confirm.
+As expected, people with health conditions rate their own health as worse. Although the five categories for self-assessed health are based on each person's own interpretation, the general trend is apparent and aligns with information more based on fact: whether or not a person has a health condition, which physicians can confirm.
